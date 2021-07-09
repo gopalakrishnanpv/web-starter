@@ -1,0 +1,46 @@
+body
+{
+	background-image:url('images/background1.jpg');
+	
+}
+
+@keyframes zoom{
+	0%{transform: scale(1)}
+	100%{transform: scale(1.1)}
+}
+#container
+{
+	width: 500px;;
+	height:500px; 
+	margin: 0 400px;
+	margin-top:50px;
+	border: 10px solid green;
+	animation: zoom 2s linear 3s 1 forwards;
+
+}
+#certificate
+{
+	width:400px;
+	height:400px; 
+	text-align:center;
+	background-color:white;
+	border: 50px solid transparent;
+	border-image: url(../images/certificate.jpg) 50 stretch;
+} 
+
+
+h1
+{
+	margin-left:170px;
+	color: #92a5de;
+	font: bold 40px Sans-Serif;
+}
+@font-face{
+	font-family: searun;
+	src: url(searun.ttf);
+}
+
+#heading{
+	font-family: searun;
+}
+
